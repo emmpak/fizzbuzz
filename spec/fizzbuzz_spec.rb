@@ -1,4 +1,4 @@
-./spec/fizzbuzz_spec.rb#!/usr/bin/env ruby -wKU
+require_relative '../lib/fizzbuzz'
 
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed 3' do
