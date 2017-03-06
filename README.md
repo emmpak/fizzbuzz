@@ -1,1 +1,1 @@
-#This is the FizzBuzz kata, solved using TDD.
+#This is the FizzBuzz kata, solved using TDD
