@@ -1,5 +1,6 @@
 def fizzbuzz(number)
-  puts number
+  return "Fizz" if is_divisible_by_three?(number)
+  number
 end
 
 def is_divisible_by_three?(number)
