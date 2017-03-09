@@ -33,5 +33,8 @@ describe 'fizzbuzz' do
     it 'buzz' do
       expect(fizzbuzz(5)).to eq "buzz"
     end
+    it 'fizzbuzz' do
+      expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    end
   end
 end
