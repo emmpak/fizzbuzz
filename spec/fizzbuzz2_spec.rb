@@ -27,8 +27,11 @@ describe 'fizzbuzz' do
     it 'number' do
       expect(fizzbuzz(2)).to eq 2
     end
-    it 'Fizz' do
-      expect(fizzbuzz(3)).to eq 'Fizz'
+    it 'fizz' do
+      expect(fizzbuzz(3)).to eq 'fizz'
+    end
+    it 'buzz' do
+      expect(fizzbuzz(5)).to eq "buzz"
     end
   end
 end
