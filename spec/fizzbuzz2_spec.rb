@@ -13,5 +13,8 @@ describe 'fizzbuzz' do
     it '3' do
       expect(is_divisible_by_three?(5)).to_not be_truthy
     end
+    it '5' do
+      expect(is_divisible_by_five?(6)).to_not be_truthy
+    end
   end
 end
