@@ -1,4 +1,4 @@
-require '../lib/fizzbuzz2'
+require 'fizzbuzz2'
 
 describe 'fizzbuzz' do
   context 'number is divisible by' do
@@ -25,16 +25,16 @@ describe 'fizzbuzz' do
   end
   context 'while playing the game it returns' do
     it 'number' do
-      expect(fizzbuzz(2)).to eq 2
+      expect(fizzbuzz2(2)).to eq 2
     end
     it 'fizz' do
-      expect(fizzbuzz(3)).to eq 'fizz'
+      expect(fizzbuzz2(3)).to eq 'Fizz'
     end
     it 'buzz' do
-      expect(fizzbuzz(5)).to eq "buzz"
+      expect(fizzbuzz2(5)).to eq "buzz"
     end
     it 'fizzbuzz' do
-      expect(fizzbuzz(15)).to eq 'fizzbuzz'
+      expect(fizzbuzz2(15)).to eq 'fizzbuzz'
     end
   end
 end
